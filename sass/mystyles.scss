@@ -1,0 +1,122 @@
+@import "variables";
+body{
+	background:#000000;
+
+}
+
+
+.intro{
+	background:url("../mckenna.jpg");
+	background-position: center center;
+	background-size:cover;
+	background-attachment: fixed;
+	opacity: 0.6;
+	height: 1100px;
+	width: 100%;
+	padding-top:150px;
+	border-bottom: 10px solid green;
+	text-align: center;
+	.container{
+		text-align: center;
+	}
+	
+	
+	h1{
+		@include large-header;
+		text-align: center;
+		text-shadow: 2px 2px #000000;
+	}
+	h3{
+		@include black-header;
+		font-size: 180%;
+		text-shadow: 2px 2px #000000;
+	}
+}
+.secondary{
+	background-color: #999966;
+	height:auto;
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 5px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	border-bottom: 1px solid #000000;
+	
+	}
+.col-bg{
+	background-color: #ffe6b3;
+	border: none;
+	border-radius: 10Px;
+}
+.bottom{
+	background-color: #1f1f1f;
+	col{
+		margin-bottom: 5px;
+		padding: 10px;
+
+	}
+}
+.foot{
+	text-align: center;
+	vertical-align: text-bottom;
+	$text-color:white;
+	margin-bottom: 15px;
+}
+.ftext{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ffffff;
+	vertical-align: bottom;
+	font-family: verdana;
+	margin-left: 5px;
+	span{
+		font-family: $philosopher;
+	}
+}
+.fattribution{
+	text-align: right;
+	color: #ffffff;
+	vertical-align: bottom;
+}
+.nostyle{
+	margin-bottom: 50px;
+	margin-top: 50px;
+	ul{
+		font-family: $philosopher;
+		
+		list-style-type: none;
+		color: #000000;
+		a{
+			color: #000000;
+			:hover{
+				background-color: green;
+			}
+			:visited{
+				color: red;
+			}
+			:active{
+				color:#fff;
+			
+			}
+		}
+	}
+}
+.end-section{
+	background-color: #ffaa35;
+	height: auto;
+	width: 100%;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	text-align: left;
+	
+	
+}
+.gallery{
+	background:url("../transpcollage.png");
+	opacity: 0.8;
+	background-position: center center;
+	background-size:cover;
+	background-attachment: fixed;
+	height: 1000px;
+}

@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Philosopher:700);
+body {
+  background: #000000; }
+
+.intro {
+  background: url("../mckenna.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.6;
+  height: 1100px;
+  width: 100%;
+  padding-top: 150px;
+  border-bottom: 10px solid green;
+  text-align: center; }
+  .intro .container {
+    text-align: center; }
+  .intro h1 {
+    font-size: 62px;
+    color: #004d00;
+    font-family: "Philosopher";
+    text-align: center;
+    text-shadow: 2px 2px #000000; }
+  .intro h3 {
+    font-size: small;
+    color: #ffffff;
+    font-size: 180%;
+    text-shadow: 2px 2px #000000; }
+    .intro h3 h3 {
+      font-size: 150%; }
+
+.secondary {
+  background-color: #999966;
+  height: auto;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  border-bottom: 1px solid #000000; }
+
+.col-bg {
+  background-color: #ffe6b3;
+  border: none;
+  border-radius: 10Px; }
+
+.bottom {
+  background-color: #1f1f1f; }
+  .bottom col {
+    margin-bottom: 5px;
+    padding: 10px; }
+
+.foot {
+  text-align: center;
+  vertical-align: text-bottom;
+  margin-bottom: 15px; }
+
+.ftext {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  vertical-align: bottom;
+  font-family: verdana;
+  margin-left: 5px; }
+  .ftext span {
+    font-family: "Philosopher"; }
+
+.fattribution {
+  text-align: right;
+  color: #ffffff;
+  vertical-align: bottom; }
+
+.nostyle {
+  margin-bottom: 50px;
+  margin-top: 50px; }
+  .nostyle ul {
+    font-family: "Philosopher";
+    list-style-type: none;
+    color: #000000; }
+    .nostyle ul a {
+      color: #000000; }
+      .nostyle ul a :hover {
+        background-color: green; }
+      .nostyle ul a :visited {
+        color: red; }
+      .nostyle ul a :active {
+        color: #fff; }
+
+.end-section {
+  background-color: #ffaa35;
+  height: auto;
+  width: 100%;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  text-align: left; }
+
+.gallery {
+  background: url("../transpcollage.png");
+  opacity: 0.8;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 1000px; }
+
+/*# sourceMappingURL=mystyles.css.map */

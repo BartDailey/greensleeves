@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Philosopher:700);
+$philosopher: 'Philosopher';
+$link-hover-color: green !important;
+$body-bg: black !important;
+
+// ... List Items ... 
+$soft-li: #f2f2f2;
+$green-li: #004d00;
+$red-li:#992600;
+
+
+//...Fonts ...
+$font-size-h1:50px;
+$text-color:#000;
+$headings-color:#004d00;
+$red-text:#992600;
+
+
+@mixin large-header{
+	font-size: 62px;
+	color:$green-li;
+	font-family: $philosopher;
+}
+@mixin black-header{
+	font-size: small;
+	color:#ffffff;
+	h3{
+		font-size: 150%;
+	}
+}
+@mixin styled-lists{
+	li{
+		list-style-type: none;
+	}
+}
