@@ -1,17 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Philosopher:700);
-body {
-  background: #000000; }
-
 .intro {
   background: url("../mckenna.jpg");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  opacity: 0.6;
   height: 1100px;
   width: 100%;
   padding-top: 150px;
-  border-bottom: 10px solid green;
+  border-bottom: 3px solid green;
   text-align: center; }
   .intro .container {
     text-align: center; }
@@ -19,13 +15,12 @@ body {
     font-size: 62px;
     color: #004d00;
     font-family: "Philosopher";
-    text-align: center;
-    text-shadow: 2px 2px #000000; }
+    text-align: center; }
   .intro h3 {
     font-size: small;
     color: #ffffff;
-    font-size: 180%;
-    text-shadow: 2px 2px #000000; }
+    text-shadow: 2px 2px;
+    font-size: 180%; }
     .intro h3 h3 {
       font-size: 150%; }
 
@@ -37,8 +32,7 @@ body {
   margin-bottom: 5px;
   padding-top: 30px;
   padding-bottom: 30px;
-  text-align: center;
-  border-bottom: 1px solid #000000; }
+  text-align: center; }
 
 .col-bg {
   background-color: #ffe6b3;
@@ -50,6 +44,45 @@ body {
   .bottom col {
     margin-bottom: 5px;
     padding: 10px; }
+
+.gallery {
+  background: url("../transpcollage.png");
+  opacity: 0.8;
+  background-position: center center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  height: 1000px;
+  padding-top: 200px; }
+  .gallery p {
+    color: green; }
+  .gallery h1 {
+    font-size: 62px;
+    color: yellow;
+    font-family: "Philosopher";
+    text-align: center; }
+
+.end-section {
+  background-color: #ffaa35;
+  height: auto;
+  width: 100%;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  text-align: left; }
+  .end-section .nostyle {
+    margin-bottom: 50px;
+    margin-top: 50px; }
+    .end-section .nostyle ul {
+      font-family: "Philosopher";
+      list-style-type: none;
+      color: #000000; }
+      .end-section .nostyle ul a {
+        color: #000000; }
+        .end-section .nostyle ul a :hover {
+          background-color: green; }
+        .end-section .nostyle ul a :visited {
+          color: red; }
+        .end-section .nostyle ul a :active {
+          color: #fff; }
 
 .foot {
   text-align: center;
@@ -70,37 +103,5 @@ body {
   text-align: right;
   color: #ffffff;
   vertical-align: bottom; }
-
-.nostyle {
-  margin-bottom: 50px;
-  margin-top: 50px; }
-  .nostyle ul {
-    font-family: "Philosopher";
-    list-style-type: none;
-    color: #000000; }
-    .nostyle ul a {
-      color: #000000; }
-      .nostyle ul a :hover {
-        background-color: green; }
-      .nostyle ul a :visited {
-        color: red; }
-      .nostyle ul a :active {
-        color: #fff; }
-
-.end-section {
-  background-color: #ffaa35;
-  height: auto;
-  width: 100%;
-  margin-bottom: 50px;
-  padding-bottom: 50px;
-  text-align: left; }
-
-.gallery {
-  background: url("../transpcollage.png");
-  opacity: 0.8;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 1000px; }
 
 /*# sourceMappingURL=mystyles.css.map */

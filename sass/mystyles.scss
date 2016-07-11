@@ -1,20 +1,20 @@
+// ... Import variables.scss ... //
 @import "variables";
-body{
-	background:#000000;
-
-}
+// ... End variables.scss import ... //
 
 
+
+// ... Intro Section .... //
 .intro{
 	background:url("../mckenna.jpg");
 	background-position: center center;
 	background-size:cover;
 	background-attachment: fixed;
-	opacity: 0.6;
+	//opacity: 0.6;
 	height: 1100px;
 	width: 100%;
 	padding-top:150px;
-	border-bottom: 10px solid green;
+	border-bottom: 3px solid green;
 	text-align: center;
 	.container{
 		text-align: center;
@@ -24,14 +24,17 @@ body{
 	h1{
 		@include large-header;
 		text-align: center;
-		text-shadow: 2px 2px #000000;
+		
 	}
 	h3{
 		@include black-header;
 		font-size: 180%;
-		text-shadow: 2px 2px #000000;
+		
 	}
 }
+// ... End Intro Section ... //
+
+// ... Second Section ... //
 .secondary{
 	background-color: #999966;
 	height:auto;
@@ -41,7 +44,7 @@ body{
 	padding-top: 30px;
 	padding-bottom: 30px;
 	text-align: center;
-	border-bottom: 1px solid #000000;
+	
 	
 	}
 .col-bg{
@@ -57,6 +60,65 @@ body{
 
 	}
 }
+// ... End Secondary Section ... //
+
+// ... Gallery Section ... //
+.gallery{
+	background:url("../transpcollage.png");
+	opacity: 0.8;
+	background-position: center center;
+	background-size:100% 100%;
+	background-attachment: fixed;
+	height: 1000px;
+	padding-top:200px;
+	p{
+		color:green;
+	}
+	h1{
+		@include moving-header;
+	}
+	
+}
+
+
+// ... End Gallery Section ... //
+
+// ... End Section ... //
+.end-section{
+	background-color: #ffaa35;
+	height: auto;
+	width: 100%;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	text-align: left;
+
+		.nostyle{
+			margin-bottom: 50px;
+			margin-top: 50px;
+			ul{
+				font-family: $philosopher;
+				
+				list-style-type: none;
+				color: #000000;
+				a{
+					color: #000000;
+					:hover{
+						background-color: green;
+					}
+					:visited{
+						color: red;
+					}
+					:active{
+						color:#fff;
+					
+					}
+				}
+			}
+		}
+}
+// ... End End-Section ... //
+
+// ... Footer and Footer Text ... //
 .foot{
 	text-align: center;
 	vertical-align: text-bottom;
@@ -79,44 +141,4 @@ body{
 	color: #ffffff;
 	vertical-align: bottom;
 }
-.nostyle{
-	margin-bottom: 50px;
-	margin-top: 50px;
-	ul{
-		font-family: $philosopher;
-		
-		list-style-type: none;
-		color: #000000;
-		a{
-			color: #000000;
-			:hover{
-				background-color: green;
-			}
-			:visited{
-				color: red;
-			}
-			:active{
-				color:#fff;
-			
-			}
-		}
-	}
-}
-.end-section{
-	background-color: #ffaa35;
-	height: auto;
-	width: 100%;
-	margin-bottom: 50px;
-	padding-bottom: 50px;
-	text-align: left;
-	
-	
-}
-.gallery{
-	background:url("../transpcollage.png");
-	opacity: 0.8;
-	background-position: center center;
-	background-size:cover;
-	background-attachment: fixed;
-	height: 1000px;
-}
+// ... End Footer Section ... //

@@ -1,20 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Philosopher:700);
-/* line 2, ../sass/mystyles.scss */
-body {
-  background: #000000;
-}
-
 /* line 8, ../sass/mystyles.scss */
 .intro {
   background: url("../mckenna.jpg");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  opacity: 0.6;
   height: 1100px;
   width: 100%;
   padding-top: 150px;
-  border-bottom: 10px solid green;
+  border-bottom: 3px solid green;
   text-align: center;
 }
 /* line 19, ../sass/mystyles.scss */
@@ -27,21 +21,20 @@ body {
   color: #004d00;
   font-family: "Philosopher";
   text-align: center;
-  text-shadow: 2px 2px #000000;
 }
 /* line 29, ../sass/mystyles.scss */
 .intro h3 {
   font-size: small;
   color: #ffffff;
+  text-shadow: 2px 2px;
   font-size: 180%;
-  text-shadow: 2px 2px #000000;
 }
-/* line 27, ../sass/variables.scss */
+/* line 36, ../sass/variables.scss */
 .intro h3 h3 {
   font-size: 150%;
 }
 
-/* line 35, ../sass/mystyles.scss */
+/* line 38, ../sass/mystyles.scss */
 .secondary {
   background-color: #999966;
   height: auto;
@@ -51,83 +44,48 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
-  border-bottom: 1px solid #000000;
 }
 
-/* line 47, ../sass/mystyles.scss */
+/* line 50, ../sass/mystyles.scss */
 .col-bg {
   background-color: #ffe6b3;
   border: none;
   border-radius: 10Px;
 }
 
-/* line 52, ../sass/mystyles.scss */
+/* line 55, ../sass/mystyles.scss */
 .bottom {
   background-color: #1f1f1f;
 }
-/* line 54, ../sass/mystyles.scss */
+/* line 57, ../sass/mystyles.scss */
 .bottom col {
   margin-bottom: 5px;
   padding: 10px;
 }
 
-/* line 60, ../sass/mystyles.scss */
-.foot {
-  text-align: center;
-  vertical-align: text-bottom;
-  margin-bottom: 15px;
-}
-
 /* line 66, ../sass/mystyles.scss */
-.ftext {
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #ffffff;
-  vertical-align: bottom;
-  font-family: verdana;
-  margin-left: 5px;
+.gallery {
+  background: url("../transpcollage.png");
+  opacity: 0.8;
+  background-position: center center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  height: 1000px;
+  padding-top: 200px;
 }
-/* line 73, ../sass/mystyles.scss */
-.ftext span {
-  font-family: "Philosopher";
+/* line 74, ../sass/mystyles.scss */
+.gallery p {
+  color: green;
 }
-
 /* line 77, ../sass/mystyles.scss */
-.fattribution {
-  text-align: right;
-  color: #ffffff;
-  vertical-align: bottom;
-}
-
-/* line 82, ../sass/mystyles.scss */
-.nostyle {
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
-/* line 85, ../sass/mystyles.scss */
-.nostyle ul {
+.gallery h1 {
+  font-size: 62px;
+  color: yellow;
   font-family: "Philosopher";
-  list-style-type: none;
-  color: #000000;
-}
-/* line 90, ../sass/mystyles.scss */
-.nostyle ul a {
-  color: #000000;
-}
-/* line 92, ../sass/mystyles.scss */
-.nostyle ul a :hover {
-  background-color: green;
-}
-/* line 95, ../sass/mystyles.scss */
-.nostyle ul a :visited {
-  color: red;
-}
-/* line 98, ../sass/mystyles.scss */
-.nostyle ul a :active {
-  color: #fff;
+  text-align: center;
 }
 
-/* line 105, ../sass/mystyles.scss */
+/* line 87, ../sass/mystyles.scss */
 .end-section {
   background-color: #ffaa35;
   height: auto;
@@ -136,13 +94,58 @@ body {
   padding-bottom: 50px;
   text-align: left;
 }
+/* line 95, ../sass/mystyles.scss */
+.end-section .nostyle {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+/* line 98, ../sass/mystyles.scss */
+.end-section .nostyle ul {
+  font-family: "Philosopher";
+  list-style-type: none;
+  color: #000000;
+}
+/* line 103, ../sass/mystyles.scss */
+.end-section .nostyle ul a {
+  color: #000000;
+}
+/* line 105, ../sass/mystyles.scss */
+.end-section .nostyle ul a :hover {
+  background-color: green;
+}
+/* line 108, ../sass/mystyles.scss */
+.end-section .nostyle ul a :visited {
+  color: red;
+}
+/* line 111, ../sass/mystyles.scss */
+.end-section .nostyle ul a :active {
+  color: #fff;
+}
 
-/* line 115, ../sass/mystyles.scss */
-.gallery {
-  background: url("../transpcollage.png");
-  opacity: 0.8;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 1000px;
+/* line 122, ../sass/mystyles.scss */
+.foot {
+  text-align: center;
+  vertical-align: text-bottom;
+  margin-bottom: 15px;
+}
+
+/* line 128, ../sass/mystyles.scss */
+.ftext {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  vertical-align: bottom;
+  font-family: verdana;
+  margin-left: 5px;
+}
+/* line 135, ../sass/mystyles.scss */
+.ftext span {
+  font-family: "Philosopher";
+}
+
+/* line 139, ../sass/mystyles.scss */
+.fattribution {
+  text-align: right;
+  color: #ffffff;
+  vertical-align: bottom;
 }
